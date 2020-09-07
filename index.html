@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Boomerang - Template</title>
+
+        <!-- Plugins-->
+        <link href="myplugins.min.css" rel="stylesheet">
+        <!-- Template core CSS-->
+        <link href="mycss.css" rel="stylesheet">
+        
+<!-- Binance purchase widget -->
+    <script>
+        window.onload = function () {
+            var t = document.querySelector('#widget')
+            window.binanceFiatWidget.Widget(t, {
+                coinInfo: {
+                    fiat: 'AUD',
+                    crypto: 'BTC',
+                    isInUS: false                    
+                },
+                urlParmas: {
+                        ref: '36980879'
+                }
+            })
+        }
+    </script>
+<script src="https://public.bnbstatic.com/static/js/ocbs/binance-fiat-widget.js"></script> 
+</head>
+
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"></a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="About.html" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                    <li class="nav-item"><a href="Balances.html" class="nav-link text-uppercase font-weight-bold">Balances</a></li>
+                    <li class="nav-item"><a href="Donate.html" class="nav-link text-uppercase font-weight-bold">Donate</a></li>
+                    <li class="nav-item"><a href="History.html" class="nav-link text-uppercase font-weight-bold">History</a></li>
+                    <li class="nav-item"><a href="FAQ.html" class="nav-link text-uppercase font-weight-bold">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+<div class="svg-wrapper">
+  <svg height="60" width="320">
+    <rect class="shape" height="60" width="320" />
+  </svg>
+   <div class="text">The Good Part</div>
+</div>
+<div class="row-header">
+   <div class="col-md-3">
+       <div class="counter">
+           <div class="counter-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="#38AECC" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg></div>
+           <div class="counter-number">
+               <h6><strong class="counter-timer" data-from="0" data-to="8">0</strong></h6>
+           </div>
+           <div class="counter-title"><strong>Users</strong></div>
+       </div>
+   </div>
+   <div class="col-md-3">
+       <div class="counter">
+           <div class="counter-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cash" fill="#38AECC" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M15 4H1v8h14V4zM1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1z"/>
+            <path d="M13 4a2 2 0 0 0 2 2V4h-2zM3 4a2 2 0 0 1-2 2V4h2zm10 8a2 2 0 0 1 2-2v2h-2zM3 12a2 2 0 0 0-2-2v2h2zm7-4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+            </svg>
+           </div>
+           <div class="counter-number">
+               <h6><strong class="counter-timer" data-from="0" data-to="466">0</strong></h6>
+           </div>
+           <div class="counter-title"><strong>AUD</strong></div>
+       </div>
+
+       </div>
+   <div class="col-md-3">
+       <div class="counter">
+           <div class="counter-icon"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-globe" fill="#38AECC" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+</svg>
+           </div>
+           <div class="counter-number">
+               <h6><strong class="counter-timer" data-from="0" data-to="14">0</strong></h6>
+           </div>
+           <div class="counter-title"><strong>Non-profits</strong></div>
+       </div>
+
+       </div>
+   </div>
+    </div>
+
+
+      </div>
+    </div>
+
+</header>
+
+
+    <br>
+    <p>
+    Buy Cryptocurrency from Binance using the below form to begin contributing to great causes all around the globe!    
+    </p>
+    <br>
+
+    <div id="widget" align="center"></div>
+<br>
+<section class="module parallax" data-background="myimages/header-bg.jpg" data-overlay="0.1"> <h1><span style="color: white;">Trade for </span><span style="color: #38AECC; font-weight: bolder;">good.</span> </h1> </section>
+
+    <div class="row">
+    <br>
+<p>Click an exchange logo below to create an account. We will receive a portion of every trade you make and donate 100% of received crypto to non-profits around the globe on your behalf allowing you to passively improve the world while you trade. 
+    </p>
+    </div>
+    <br>
+<div class="row">
+   <div class="col-md-4">
+    <a href="https://www.binance.com/?ref=36980879">
+    <img src="myimages/binance.png" alt="" width="450" height="450" class="exchange-logo"/>
+    </a>
+       <a href="https://www.binance.com/?ref=36980879">              <h1>Binance</h1> </a>
+<p>Binances vision is to increase the freedom of money globally. We believe that by spreading this freedom, we can significantly improve lives around the world.  </p>
+</div>
+       <div class="col-md-4">  
+    <a href="https://ftx.com/#a=goodpart">
+       <img src="myimages/ftxnotextwhite.png" alt="" width="450" height="450" class="exchange-logo"/>
+           </a>
+                <a href="https://ftx.com/#a=goodpart"><h1>FTX</h1> </a>
+<p>FTX is a cryptocurrency exchange built by traders, for traders. FTX offers innovative products including industry-first derivatives, options, volatility products and leveraged tokens. </p>
+</div>
+   <div class="col-md-4">
+       <a href="https://www.deribit.com/reg-6381.7255">
+              <img src="myimages/Deribitlogo.png" alt="" width="450" height="450" class="exchange-logo"/>
+       </a>
+       <a href="https://www.deribit.com/reg-6381.7255">         <h1>Deribit</h1> </a>
+     <p>Deribit is a cryptocurrencies futures and options trading platform. A service that can create a fully liquid marketplace with the same standards as a traditional derivatives market.</p> 
+    </div>
+    </div>
+<br>
+<br>
+            <footer class="footer">
+
+                <div class="footer-bar">
+                    <div class="container">
+                        <br>
+                        <div class="minimize-footer">
+                        <div class="row">
+                       <div class="col-md-4">                                      
+                           <a href="https://twitter.com/TheGoodPartOrg">
+                           <img src="myimages/Twitter_Logo_Blue.png" alt="Twitter logo" class="footer-icon"></a>
+                               </div>
+                       <div class="col-md-4">          
+                           <a href="https://www.youtube.com/channel/UCvrlDY5FyA7jY7WDceaQZ6A">
+                          <img src="myimages/YouTube.png" alt="YouTube logo" class="footer-icon">
+                          </a>
+                        </div>
+                       <div class="col-md-4">            
+                           <a href="https://open.lbry.com/@www.thegoodpart.world:0?r=6bckYuP6vnAcYwDsTwXFYhrL2j9r377o">
+                          <img src="myimages/LBRY.png" alt="YouTube logo" height="38" class="footer-icon">
+                            </a>
+                            </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p><span class="copyright">&copy; thegoodpart.world 2020</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    
+<!-- To top button-->
+<a class="scroll-top" href="#top"><i class="fas fa-angle-up"></i></a>
+<!-- Scripts-->
+<script src="thjquery.min.js"></script>
+<script src="thpopper.min.js"></script>
+<script src="thbootstrap.min.js"></script>
+<script src="thplugins.js"></script>
+<script src="thcustom.min.js"></script>
+</body>   
+</html>
