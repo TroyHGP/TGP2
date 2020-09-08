@@ -5362,8 +5362,9 @@ input[type="button"].btn-block {
     -ms-flex-direction: column;
         flex-direction: column;
     min-width: 0;
+    max-width: 90%;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color:white;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
@@ -5388,6 +5389,7 @@ input[type="button"].btn-block {
     -ms-flex: 1 1 auto;
         flex: 1 1 auto;
     padding: 1.25rem;
+    max-width: 90%;
 }
 
 .card-title {
@@ -15390,6 +15392,7 @@ html, body {
 .wallet{ 
 font-weight: bolder;
 max-width:  500px;
+min-width: 45%;
 justify-content:center;
 margin: auto;
 display: inline-block;
@@ -15452,7 +15455,7 @@ margin-top: 35px;
 }
 
     #accordion1{
-    max-width: 1140px;
+    max-width: 90%;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -15461,4 +15464,7 @@ margin-top: 35px;
 .col-md-4-foot{
 
     max-width: 130%;
+}
+.wallet-text {
+    font-size: 1em;
 }
