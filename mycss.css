@@ -59,6 +59,8 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 html {
@@ -737,10 +739,10 @@ pre code {
 .col-xl-12,
 .col-xl,
 .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+	position: relative;
+	width: auto;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .col {
@@ -1249,9 +1251,11 @@ pre code {
     }
 
     .col-md-12 {
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-        max-width: 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
     }
 
     .order-md-first {
@@ -14956,7 +14960,8 @@ img.img-shadow,
 }
 
 .footer-bar p {
-    margin-bottom: 0;
+	margin-bottom: 0;
+	margin-left: auto;
 }
 
 body:after,
@@ -15378,8 +15383,8 @@ html, body {
     }
 }
 .minimize-footer {
-    max-width: 40%;
-    margin: auto;
+	max-width: 80%;
+	margin: auto;
 }
 
 .wallet{ 
@@ -15453,3 +15458,7 @@ margin-top: 35px;
     justify-content: center;
         
     }
+.col-md-4-foot{
+
+    max-width: 130%;
+}

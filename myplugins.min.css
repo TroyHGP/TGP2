@@ -18,4 +18,5 @@
 .footer-icon {
 	min-width: 40px;
 	max-width: 40px;
+	display: inline;
 }
