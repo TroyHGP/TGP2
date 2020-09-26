@@ -5361,8 +5361,9 @@ input[type="button"].btn-block {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
+    margin: auto;
     min-width: 0;
-    max-width: 90%;
+    max-width: 100%;
     word-wrap: break-word;
     background-color:white;
     background-clip: border-box;
@@ -5388,8 +5389,10 @@ input[type="button"].btn-block {
 .card-body {
     -ms-flex: 1 1 auto;
         flex: 1 1 auto;
-    padding: 1.25rem;
-    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    word-wrap: break-word;
+
 }
 
 .card-title {
